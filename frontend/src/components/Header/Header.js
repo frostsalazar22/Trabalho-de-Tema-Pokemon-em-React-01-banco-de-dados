@@ -55,15 +55,15 @@ const Header = ({ setSearchTerm, setSelectedGeneration, availableGenerations, to
           onClick={toggleDarkMode}
         >
           <ModeNightIcon />
-        </IconButton>
-        <div className="auth-links"> {/* Adiciona um contêiner para os links de autenticação */}
-          <li><Link to="/login">Login</Link></li>
-          <li><Link to="/signup">Cadastre-se</Link></li>
-          <li><Link to="/favorites">Meus Favoritos</Link></li>
+          </IconButton>
+        <div className="auth-links">
+          <Link to="/login" className="auth-link">Login</Link>
+          <Link to="/signup" className="auth-link">Cadastre-se</Link>
+          <Link to="/favorites" className="auth-link">Meus Favoritos</Link>
         </div>
       </div>
     </header>
   );
-}
+};
 
 export default Header;
