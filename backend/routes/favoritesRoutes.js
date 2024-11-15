@@ -1,4 +1,3 @@
-// src/routes/favoritesRoutes.js
 const express = require('express');
 const { addFavorite, removeFavorite } = require('../controllers/favoritesController');
 const { protect } = require('../utils/auth');

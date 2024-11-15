@@ -1,4 +1,3 @@
-// src/controllers/favoritesController.js
 const Favorite = require('../models/Favorite');
 
 exports.addFavorite = async (req, res) => {
